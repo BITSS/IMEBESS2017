@@ -9,19 +9,16 @@ Software installation is required. Instructions are [here](https://github.com/BI
 
 -----------
 
-Workshop Agenda (To be updated)
+Workshop Agenda 
 -------------
 
-Time | Session | Speaker
------------- | ------------- | -------------
-9:30-9:45 | Welcome and introductions | 
-9:45-10:15 |Overview of transparency and reproducibility in social science research | Garret Christensen (BITSS)
-10:15-10:45 | Motivational talks - why version control? | Jamie Jones (GitHub Government Team); Tariq Khokhar (World Bank Global Data Editor)
-10:45-11 | COFFEE BREAK |
-11-12:15 | Version control part 1 | Garret Christensen
-12:15-1:15pm | LUNCH BREAK |
-1:15-2:45 | Version control part 2; including group work (hands-on session) | Garret Christensen
-2:45-3 | COFFEE BREAK |
-3-3:30 | How to get started with World Bank GitHub account | Andrew Whitby + Kiwako Sakamoto
-3:30-4:30 | GitHub for TTLs - How to use GitHub as a collaboration and project monitoring tool | Andrew Whitby + Kiwako Sakamoto
-4:30-5 | Closing discussion | 
+Time | Session |
+------------ | ------------- |
+10:00-10:15 | Welcome and introductions |
+10:15-11:15 |Overview of transparency and reproducibility in social science research |
+11:15-11:30 | COFFEE BREAK |
+11:30-12:30 | Registration & Pre-Analsysis Plans (AEA Registry, OSF) |
+12:30-1:30pm | LUNCH BREAK |
+1:30-3:30 | Dynamic Documents in Stata and R Studio |
+3:30-3:45 | COFFEE BREAK |
+3:45-5:30 | Version Control with Git/Github
