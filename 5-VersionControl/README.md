@@ -10,7 +10,7 @@ affiliation: UC Berkeley
 
 Git & GitHub Desktop Workshop
 ==============================
-BITSS New Delhi 2017
+BITSS IMEBESS 2017
 ------------------------------
 by Garret Christensen
 
