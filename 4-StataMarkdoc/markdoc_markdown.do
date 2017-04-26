@@ -1,10 +1,10 @@
 
      set linesize 90
-	 *cd "C:\Users\garret\Box Sync\CEGA-Programs-BITSS\1_Events\3_Workshops-Seminars\UCMerced\UCMerced2017\3-StataMarkdoc" 
+	 cd "C:\Users\garret\Box Sync\CEGA-Programs-BITSS\1_Events\3_Workshops-Seminars\IMEBESS-Barcelona\IMEBESS2017\4-StataMarkdoc" 
 	//change this for your computer, or just do:
-	di c(pwd)
-	local drive = substr("`c(pwd)'", 1, 2)
-	cd `drive'
+	*di c(pwd)
+	*local drive = substr("`c(pwd)'", 1, 2)
+	*cd `drive'
 	//Or try the -project- package by Robert Picard
 	
 	 capture quietly log close
@@ -49,7 +49,29 @@
 			You can also add numbers inline, but it's not quite as smooth as in R Markdown.
 			***/
 			
-	/**/quietly summ price
+	/***	
+	TRY TO GET 1:both results & code 
+	***/
+	summ price
+	
+	/***
+	2: results only
+	***/
+	
+	/**/ summ price
+	
+	/***
+	3: code only
+	***/
+	/***/ summ price
+	
+	/***
+	4: neither
+	***/
+	
+	//OFF
+	summ price
+	//ON
 	
 	txt "The mean of Price variable is " %9.2f r(mean) " and SD is " %9.2f r(sd)
 
